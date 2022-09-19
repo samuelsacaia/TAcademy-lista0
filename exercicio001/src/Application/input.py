@@ -3,7 +3,7 @@
 def pegar_lista()-> list[int]:
     lista_numero=[]
     for i in range(7):
-        valor = input('digite os numero')
+        valor = str(input('digite os numero'))
         lista_numero.append(int(valor))
     return lista_numero
 
