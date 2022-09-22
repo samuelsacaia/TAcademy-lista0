@@ -8,7 +8,7 @@
 
 #print(nova_mensagem)
 
-def chama_nome ():
-    nome = str(input("Digite algo:"))
+def pega_nome ():
+    nome = input("Digite algo:")
     return (nome.title())
 

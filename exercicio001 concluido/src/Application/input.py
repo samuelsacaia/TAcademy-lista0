@@ -2,9 +2,13 @@
 
 def pegar_lista()-> list[int]:
     lista_numero=[]
-    for i in range(7):
-        valor = str(input('digite os numero'))
-        lista_numero.append(int(valor))
+    while True:
+        valor = int(input('Digite um numero: [Zero para Terminar] '))
+        if (valor == 0):
+            break
+        
+        lista_numero.append(valor)
+    
     return lista_numero
 
 

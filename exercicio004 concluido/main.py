@@ -1,9 +1,19 @@
+from src.application.input import pega_ano
+from src.application.output import mostra_mensagem
 
+def e_bissexto(ano: int):
+    if(ano %4==0 and ano%100!=0) or (ano%400==0):
+        return True
 
-from src.application.input import calendario
-from src.application.output import mostrar_o_resultado
-
+    return False
 
 if __name__ =='__main__':
-    ano = calendario()
-    mostrar_o_resultado(ano)
+    ano = pega_ano()
+
+    if e_bissexto(ano):
+        mostra_mensagem('bissexto')
+    else:
+        mostra_mensagem(f'não bissexto')
+
+
+
