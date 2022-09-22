@@ -12,10 +12,3 @@ def chama_nome ():
     nome = str(input("Digite algo:"))
     return (nome.title())
 
-#def mostra_nome():
-    sobre_nome = nome  
-    return sobre_nome
-
-
-    print((nome.title()))
-    print(type(nome))

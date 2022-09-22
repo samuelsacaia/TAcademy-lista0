@@ -6,6 +6,4 @@
 
 def calendario()->int:
     ano = int(input('Digite o Ano:'))
-
-    
     return ano

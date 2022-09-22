@@ -56,9 +56,16 @@ def numeros_pares(lista_numeros):
 def numeros_primos(lista_numero):
     lista_primos=[]
     for numero in lista_numero:
-        if numero%2 ==0:
+        if numero%2==0:
             lista_primos.append(numero)
-    return lista_primos
+            quantidade=len(lista_numero)
+            if quantidade>2:
+                return lista_primos
+        else:
+            return lista_primos
+
+
+   
 
 
 
