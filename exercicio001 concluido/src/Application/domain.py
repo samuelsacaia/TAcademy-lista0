@@ -1,6 +1,4 @@
 
-
-
 #A-SOMA:
 from itertools import count
 
@@ -56,34 +54,22 @@ def numeros_pares(lista_numeros):
 def numeros_primos(lista_numero):
     lista_primos=[]
     for numero in lista_numero:
-        if numero%2==0:
+        if e_primo(numero):
             lista_primos.append(numero)
-            quantidade=len(lista_numero)
-            if quantidade>2:
-                return lista_primos
-        else:
-            return lista_primos
+
+    return lista_primos
 
 
-   
+def e_primo(numero: int)->bool:
+    if (numero == 1):
+        return False
+        
+    for i in range(2, numero-1):
+        if (numero % i) == 0:
+            return False
 
+    return True
 
-
-
-
-
-   
-    
-      
-   
-
-
- 
-
-
-
-
-  
 
 
 

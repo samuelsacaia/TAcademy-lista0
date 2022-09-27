@@ -4,6 +4,5 @@
 
 
 
-def calendario()->int:
-    ano = int(input('Digite o Ano:'))
-    return ano
+def pega_ano()->int:
+   return int(input('Digite o Ano:'))
