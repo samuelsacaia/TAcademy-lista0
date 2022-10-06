@@ -8,13 +8,8 @@
 
 #print(nova_mensagem)
 
-<<<<<<< HEAD
-def pega_nome():
-    nome= input('digite algo:')
-=======
 def pega_nome ():
     nome = input("Digite algo:")
->>>>>>> 99e42bf3b56b2eaa8c92cc1ca20ace8e4ac39c27
     return (nome.title())
 
 

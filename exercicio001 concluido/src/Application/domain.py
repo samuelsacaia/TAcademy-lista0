@@ -58,8 +58,6 @@ def numeros_primos(lista_numero):
             lista_primos.append(numero)
 
     return lista_primos
-<<<<<<< HEAD
-=======
 
 
 def e_primo(numero: int)->bool:
@@ -72,18 +70,6 @@ def e_primo(numero: int)->bool:
 
     return True
 
->>>>>>> 99e42bf3b56b2eaa8c92cc1ca20ace8e4ac39c27
-
-
-def e_primo(numero: int)->bool:
-    if (numero == 1):
-        return False
-        
-    for i in range(2, numero-1):
-        if (numero % i) == 0:
-            return False
-
-    return True
 
 
 
